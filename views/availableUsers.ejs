@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Users</title>
+    <link rel="stylesheet" href="/css/styling.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Available Users</h1>
+        <ul>
+            <% users.forEach(function (user) { %>
+                <li>
+                    <strong>Name:</strong> <%= user.firstName %> <%= user.lastName %><br>
+                    <strong>Username:</strong> <%= user.userName %><br>
+                    <strong>Email:</strong> <%= user.email %><br> <br>
+                    
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+</body>
+</html>
