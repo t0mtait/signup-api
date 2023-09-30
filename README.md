@@ -7,7 +7,7 @@ Express.js
 - Pull the code from this repo
 - cd into the signup-api directory on your machine within the terminal
 - run 'node app' command within the terminal
-- go to localhost:3000 in a browser (or localhost:3000/users)
+- go to localhost:3000 in a browser (or localhost:3000/users to bypass registration)
   
 ### 3. What purpose does your program serve?
 it is a simple online user registration system, you can register users and view registered users.
