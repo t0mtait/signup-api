@@ -1,20 +1,5 @@
 # signup-api
 
-
-### Known issues
-- users cannot create or read data from the database as of now due to permission requirements.
-
-
-### Coming soon / in development
-- public access
-- standalone api documentation
-- delete users
-- update user information
-
-### Key features
-- User registration
-- View registered users
-
 ### How does someone run this program?
 - Pull the code from this repository
 - cd into the signup-api directory on your machine within the terminal
